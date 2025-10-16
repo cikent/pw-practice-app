@@ -12,7 +12,7 @@ test('Locator Syntax Rules', async ({page}) => {
     page.locator('input')
 
     //by ID
-    page.locator('#inputEmail1')
+    await page.locator('#inputEmail1').click()
 
     //by Class name
     page.locator('.shape-rectangle')
