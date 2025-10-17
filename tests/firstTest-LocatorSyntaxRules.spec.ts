@@ -35,3 +35,4 @@ test('Locator Syntax Rules', async ({page}) => {
     //by Exact text match
     page.locator(':text-is("Using the Grid")')
 })
+
